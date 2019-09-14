@@ -103,3 +103,47 @@ LList<T>でadd()しかしないのであれば、LinkedListやArrayでもいい�
 
 インライン化
 
+## 始めようAzure Functions
+
+イベントドリブンなアプリケーションを作るためのフレームワーク
+
+Azure App Service
+
+### Azure Functionsの構成要素
+
+トリガーとバインド
+
+トリガーによって関数が実行される
+バインドによってトリガーの入力をなににするのか、出力はどこにするのか
+などを決定する
+
+トリガー
+
+- http
+- strage queue
+- blob cosmos db
+- event hubs
+- timer
+- etc...
+
+httpTriggerなど
+
+バインド
+関数の入力と戻り値を外部リソースと紐づける
+
+- blob(ファイル置き場)
+- queue
+- cosmos db
+- SignalR Service
+- etc...
+
+functions -> SignalR -> devices  
+cosmos db -> functions
+
+などの機構が作れる
+
+## クリーンアーキテクチャ
+
+ごめんなさい、マジで内容わかりませんでした
+
+## null許容参照型
